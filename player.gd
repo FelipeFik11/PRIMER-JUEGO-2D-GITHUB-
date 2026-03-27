@@ -40,5 +40,12 @@ func _process(delta):
 
 
 
-func _on_body_entered(body: Node2D) -> void:
-	pass # Replace with function body.
+func _on_body_entered(_body):
+	hide()
+	hit.emit()
+	$CollisionShape2D.ser_deferred("disabled", true)
+func start(pos):
+	position = pos
+	show()
+	$CollisionShape2D.disabled = false
+		
