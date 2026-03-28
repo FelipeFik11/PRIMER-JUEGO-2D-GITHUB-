@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PRIMER JUEGO GODOT 2D"
-run/main_scene="uid://o6bvxumwmxs6"
+run/main_scene="uid://csldem4gie5aq"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
